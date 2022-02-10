@@ -5,10 +5,13 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import i1 from "./assets/images/1.png";
-import all from "styles/all.min.css";
-import app_css from "styles/app.9874624c.css";
-import app_js from "styles/app.8511c47d.js";
-import vendor_js from "styles/chunk-vendors.0c9fbc24.js";
+import c_all from "./styles/css/all.min.css";
+import c_app from "./styles/css/app.9874624c.css";
+import j_app from "./styles/js/app.8511c47d.js";
+import j_vendor from "./styles/js/chunk-vendors.0c9fbc24.js";
+import i_coin from "./assets/images/coin-5@1x_cut.a0f51c8b.png";
+import i_gold from "./assets/images/gold-digger-house-4@1x.2c3b3a00.png";
+import i_red from "./assets/images/redlip-2@1x.f7b93a62.png";
 
 export const StyledButton = styled.button`
   padding: 10px;
