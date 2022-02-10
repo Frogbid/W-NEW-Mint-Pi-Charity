@@ -5,6 +5,10 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import i1 from "./assets/images/1.png";
+import all from "styles/all.min.css";
+import app_css from "styles/app.9874624c.css";
+import app_js from "styles/app.8511c47d.js";
+import vendor_js from "styles/chunk-vendors.0c9fbc24.js";
 
 export const StyledButton = styled.button`
   padding: 10px;
